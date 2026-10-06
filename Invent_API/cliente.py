@@ -54,7 +54,7 @@ def agregar_prod():
 
     if respuesta.status_code == 201:
         producto = respuesta.json()
-        print("\nProducto creado:")
+        print("\nProducto creado:")ñ
         mostrar_producto(producto)
     elif respuesta.status_code == 400:
         print("Datos inválidos.")
